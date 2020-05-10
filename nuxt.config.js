@@ -57,5 +57,6 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  dev: process.env.NODE_ENV !== 'production'
 }

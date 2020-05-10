@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <logo />
+      <Todos />
       <h1 class="title">
         NuxtDemo
       </h1>
@@ -25,11 +26,13 @@
 </template>
 
 <script>
+import Todos from './todos'
 import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Todos
   }
 }
 </script>
